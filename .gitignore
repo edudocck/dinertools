@@ -1,0 +1,12 @@
+# Local config, secrets, runtime data and backups
+.env
+.env.*
+!.env.example
+**/data/
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/backups/
+__pycache__/
+*.pyc
+*.log
